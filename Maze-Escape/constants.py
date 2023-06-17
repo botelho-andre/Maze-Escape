@@ -1,0 +1,32 @@
+import logging
+
+SERVER_ADDRESS = '127.0.0.1'
+PORT = 8000
+END = "fim"
+TRUE = "True"
+FALSE = "False"
+X_MAX = "x max      "
+Y_MAX = "y max      "
+X_CELL_MAX = "x cell max "
+Y_CELL_MAX = "y cell max "
+ADD_PLAYER = "add player "
+GET_PLAYERS = "get players"
+GET_OBST = "get obst   "
+NR_PLAYERS = "nr players "
+NR_OBST = "nr obst    "
+PLAYER_MOV = "player mov "
+GET_MAZE = "get maze   "
+GET_IS_WALL = "get is wall"
+GET_IS_MID_WALL = "get mid wal"
+GET_IS_P1_GOAL = "get p1 goal"
+GET_IS_P2_GOAL = "get p2 goal"
+GET_IS_PLAYER_AT_GOAL = "get pl goal"
+START_GAME = "start game "
+UPDATE = "update     "
+MSG_SIZE = 11
+N_BYTES = 20
+ACCEPT_TIMEOUT = 1
+STR_COD = 'utf-8'
+LOG_FILE_NAME = "game-server.log"
+LOG_LEVEL = logging.DEBUG
+NR_CLIENTS = 2
